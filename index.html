@@ -4,67 +4,84 @@
   <meta charset="utf-8">
   <title>The Seven Wonders of the Ancient World</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&amp;display=swap" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header role="banner">
     <h1>The Seven Wonders of the Ancient World</h1>
+    <div class="banner">
+      <img class="banner-image" src="images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg" alt="#">
+      <div class="sub-title">
+        <h2>Remarkable constructions of classical antiquity—lost in time</h2>
+        <p>"Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world."</p>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <img class="banner" src="images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg" alt="#">
-    <div class="text">
-      <h2>Remarkable constructions of classical antiquity—lost in time</h2>
-      <p>"Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world."</p>
-    </div>
-
-    <figure>
-      <img src="images/temple-of-artemis.jpg" alt="#">
-      <figcaption>
-        <h2>Temple of Artemis</h2>
+  <main role="main">
+    <ol role="presentation">
+      <li class="image1">
+        <figure>
+          <img class="main-images" aria-label="Temple of Artemis" src="images/temple-of-artemis.jpg" alt="Temple of Artemis">
+          <figcaption>Temple of Artemis</figcaption>
+        </figure>
         <dl>
-          <dt>Construction:</dt>
-          <dd>Circa 550 BC</dd>
-          <dt>Builders:</dt>
-          <dd>Greeks</dd>
-          <dt>Location:</dt>
-          <dd>Selçuk, Turkey</dd>
+          <dt class="img-title">Temple of Artemis</dt>
+          <dd class="info">
+            <dl>
+              <dt class="info-head">Construction:</dt>
+              <dd class="info-text">Circa 550 BC</dd>
+              <dt class="info-head">Builders:</dt>
+              <dd class="info-text">Greeks</dd>
+              <dt class="info-head">Location:</dt>
+              <dd class="info-text">Selçuk, Turkey</dd>
+            </dl>
+          </dd>
         </dl>
-      </figcaption>
-    </figure>
+      </li>
 
-    <figure>
-      <img src="images/colossus-of-rhodes.jpg" alt="#">
-      <figcaption>
-        <h2>Colossus of Rhodes</h2>
+      <li class="image2">
+        <figure>
+          <img class="main-images" aria-label="Colossus of Rhodes" src="images/colossus-of-rhodes.jpg" alt="Colossus of Rhodes">
+          <figcaption>Colossus of Rhodes</figcaption>
+        </figure>
         <dl>
-          <dt>Construction:</dt>
-          <dd>292–280 BC</dd>
-          <dt>Builders:</dt>
-          <dd>Greeks</dd>
-          <dt>Location:</dt>
-          <dd>Rhodes, Greece</dd>
+          <dt class="img-title">Colossus of Rhodes</dt>
+          <dd class="info">
+            <dl>
+              <dt class="info-head">Construction:</dt>
+              <dd class="info-text">292–280 BC</dd>
+              <dt class="info-head">Builders:</dt>
+              <dd class="info-text">Greeks</dd>
+              <dt class="info-head">Location:</dt>
+              <dd class="info-text">Rhodes, Greece</dd>
+            </dl>
+          </dd>
         </dl>
-      </figcaption>
-    </figure>
+      </li>
 
-    <figure>
-      <img src="images/gardens-of-babylon.jpg" alt="#">
-      <figcaption>
-        <h2>Gardens of Babylon</h2>
+      <li class="image3">
+        <figure>
+          <img class="main-images" aria-label="Hanging Gardens of Babylon" src="images/hanging-gardens-of-babylon.jpg" alt="Colossus of Rhodes">
+          <figcaption>Hanging Gardens of Babylon</figcaption>
+        </figure>
         <dl>
-          <dt>Construction:</dt>
-          <dd>Circa 600 BC</dd>
-          <dt>Builders:</dt>
-          <dd>Babylonians</dd>
-          <dt>Location:</dt>
-          <dd>Nineveh, Iraq</dd>
+          <dt class="img-title">Gardens of Babylon</dt>
+          <dd class="info">
+            <dl>
+              <dt class="info-head">Construction:</dt>
+              <dd class="info-text">Circa 600 BC</dd>
+              <dt class="info-head">Builders:</dt>
+              <dd class="info-text">Babylonians</dd>
+              <dt class="info-head">Location:</dt>
+              <dd class="info-text">Nineveh, Iraq</dd>
+            </dl>
+          </dd>
         </dl>
-      </figcaption>
-    </figure>
-
+      </li>
+    </ol>
   </main>
 </body>
 </html>
